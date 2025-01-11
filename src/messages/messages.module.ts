@@ -3,8 +3,6 @@ import { MessagesController } from './messages.controller';
 
 
 @Module({
-
-  controllers: [MessagesController],
-  
+  controllers: [MessagesController]
 })
 export class AppModule {}
